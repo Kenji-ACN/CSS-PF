@@ -2212,135 +2212,141 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
 /* ============================================================
    CONTINUE APPLICATION PAGE
    ============================================================ */
-.npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .form-control.npo-input,
-.form-select.npo-input {
-  width: 100% !important;
-  font: normal normal normal 16px / 24px Nunito;
+.npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .form-control.npo-input {
+    width: 100% !important;
+    font: normal normal normal 16px / 24px Nunito;
 }
 
-.npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-card_body:has(> .errmsg:not(.d-none)) .form-control.npo-input {
-  border-color: #EB4A27 !important;
+.npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application)
+  .bdo-card_body:has(> .errmsg:not(.d-none)) .form-control.npo-input {
+    border-color: #EB4A27 !important;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) {
-  box-shadow: unset !important;
-  background-color: unset !important;
+    box-shadow: unset !important;
+    background-color: unset !important;
 
-  @media screen and (max-width: 768px) {
-    .bdo-msgbox__actions {
-      flex-direction: column;
-      align-items: stretch;
-    }
+    @media screen and (max-width: 768px) {
+        .bdo-msgbox__actions {
+            flex-direction: column;
+            align-items: stretch;
+        }
 
-    .bdo-msgbox__actions .btn {
-      margin: 8px 0px !important;
-    }
+        .bdo-msgbox__actions .btn {
+            margin: 8px 0px !important;
+        }
 
-    .btn {
-      width: 100% !important;
+        .btn {
+            width: 100% !important;
+        }
     }
-  }
 }
 
 /* Continue Application Page CSS */
+
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-msgbox {
-  min-width: 436px;
-  max-width: 580px;
-  border-radius: 8px;
-  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    min-width: 320px;
+    max-width: 580px;
+    gap: 16px;
+    background: #FFFFFF;
+    color: #2E2E2E;
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-msgbox__content {
-  padding: 16px 0;
-  font-size: 16px;
+    padding: 16px 0;
+    font-size: 16px;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-card__body {
-  padding: 24px 0;
+    padding: 24px 0;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) p {
-  margin: 0 0 34.5px;
+    margin: 0 0 34.5px;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) label {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  unicode-bidi: isolate;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .errmsg {
-  color: #EB4A27 !important;
-  font-size: 14px;
-  margin-block-start: 8px;
+    color: #EB4A27 !important;
+    font-size: 14px;
+      margin-block-start: 8px;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) [data-npo-field]:has(> .bdo-card__lnk_forgot) {
-  text-align: center;
-  margin-block-start: 24px;
+    text-align: center;
+    margin-block-start: 24px;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) button.bdo-card__lnk_forgot {
-  background: transparent;
-  border: 0;
-  padding: 0;
-  font: 700 16px 'Nunito';
-  color: #0072D8;
-  text-decoration: none;
-  cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    font: 700 16px 'Nunito';
+    color: #0072D8;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) button.bdo-card__lnk_forgot:hover,
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) button.bdo-card__lnk_forgot:focus {
-  color: #0f3cc3;
-  text-decoration: underline;
-  outline: none;
+    color: #0f3cc3;
+    text-decoration: underline;
+    outline: none;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-msgbox__actions {
-  padding-top: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-msgbox__actions .btn-secondary {
-  font-family: 'Nunito';
-  border: 2px solid #0072d8;
-  background-color: #fff;
-  color: #0072d8;
-  margin-left: 0 !important;
+    font-family: 'Nunito';
+    border: 2px solid #0072d8;
+    background-color: #fff;
+    color: #0072d8;
+    margin-left: 0 !important;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-msgbox__actions .btn {
-  height: 48px;
-  padding: 8px 12px;
-  margin: 8px;
-  border-radius: 8px;
-  display: inline-flex;
-  align-items: center;
-  width: max-content;
-  font-weight: bold;
-  width: 240px;
-  text-align: center;
-  justify-content: center;
+    height: 48px;
+    padding: 8px 12px;
+    margin: 8px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    width: max-content;
+    font-weight: bold;
+    width: 240px;
+    text-align: center;
+    justify-content: center;
 }
 
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-msgbox__actions .btn-primary {
-  font-family: 'Nunito';
-  background: #0072D8;
-  color: #FFFFFF;
-  margin-right: 0 !important;
+    font-family: 'Nunito';
+    background: #0072D8;
+    color: #FFFFFF;
+    margin-right: 0 !important;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-continue-application) .bdo-msgbox__actions .btn-primary:hover {
-  background-color: #005097 !important;
-  border-color: #1040D1;
+    background-color: #005097 !important;
+    border-color: #1040D1;
 }
+
 
 
 
