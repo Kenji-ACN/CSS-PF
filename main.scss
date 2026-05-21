@@ -3673,10 +3673,11 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
   font-weight: 400;
   line-height: normal;
 }
- /* ============================================================
+
+/* ============================================================
                         BDO LOGIN PAGE
    ============================================================ */
-   
+
 .npo-form-content:has(#bdo-login) {
     display: flex;
     flex-direction: column;
@@ -3684,7 +3685,7 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
     justify-content: center;
     box-shadow: unset !important;
     background: unset !important;
-    width: calc(412px+24px) !important;
+    width: calc(412px + 24px) !important;
 }
 
 
