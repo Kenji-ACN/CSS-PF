@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
 
 $font-family-sans-serif: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
-$headings-font-family:   "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
 
 
 /* ============================================================
@@ -64,9 +64,9 @@ body {
   background-color: #f6f6f6 !important;
 }
 
-.bdo-form{
+.bdo-form {
   position: relative;
-  display:flex;
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
@@ -80,7 +80,8 @@ body {
   font-weight: 400;
   line-height: normal;
 }
-.npo-container{
+
+.npo-container {
   margin-top: unset !important;
 }
 
@@ -149,7 +150,7 @@ body {
 /* ============================================================
    LAYOUT
    ============================================================ */
-.bdo-main-content{
+.bdo-main-content {
   display: flex;
   justify-content: center;
   overflow-y: auto;
@@ -269,8 +270,8 @@ body {
 }
 
 /* Hide auto-generated page/section titles */
-.npo-page > h2,
-.npo-section > h3 {
+.npo-page>h2,
+.npo-section>h3 {
   display: none;
 }
 
@@ -402,19 +403,18 @@ body {
 /* ============================================================
    BOTTOM NAVIGATION BUTTONS
    ============================================================ */
-
 .npo-nav-bottom-row {
   flex-grow: 1;
   gap: 16px;
   padding: 24px 0 8px 0;
 }
 
-.npo-nav-bottom-row > *,
-.npo-nav-bottom-row > * > .btn {
+.npo-nav-bottom-row>*,
+.npo-nav-bottom-row>*>.btn {
   width: 100%;
 }
 
-.npo-nav-bottom-row > * > .btn {
+.npo-nav-bottom-row>*>.btn {
   padding: 12px;
   border-radius: 8px;
 }
@@ -452,12 +452,12 @@ body {
 }
 
 /* Only-child: full-width centred next button */
-.npo-nav-bottom-row > .npo-nav-bottom-right:only-child,
-.npo-nav-bottom-row > .npo-nav-bottom-right:only-child .npo-next-button {
+.npo-nav-bottom-row>.npo-nav-bottom-right:only-child,
+.npo-nav-bottom-row>.npo-nav-bottom-right:only-child .npo-next-button {
   width: 100%;
 }
 
-.npo-nav-bottom-row > .npo-nav-bottom-right:only-child .npo-next-button {
+.npo-nav-bottom-row>.npo-nav-bottom-right:only-child .npo-next-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -465,7 +465,7 @@ body {
   color: var(--Neutrals-White);
 }
 
-.npo-nav-bottom-row > .npo-nav-bottom-right:only-child .npo-next-button:hover {
+.npo-nav-bottom-row>.npo-nav-bottom-right:only-child .npo-next-button:hover {
   background-color: #005097 !important;
 }
 
@@ -799,8 +799,8 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
   box-sizing: border-box;
 }
 
-.bdo-radio input:checked ~ .bdo-radio-checkmark,
-.bdo-radio input:checked ~ .checkmark {
+.bdo-radio input:checked~.bdo-radio-checkmark,
+.bdo-radio input:checked~.checkmark {
   border-color: #0d6efd;
 }
 
@@ -818,19 +818,19 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
   transform: translate(-50%, -50%);
 }
 
-.bdo-radio input:checked ~ .bdo-radio-checkmark::after,
-.bdo-radio input:checked ~ .checkmark::after {
+.bdo-radio input:checked~.bdo-radio-checkmark::after,
+.bdo-radio input:checked~.checkmark::after {
   display: block;
 }
 
 /* Hover states */
-.bdo-radio .form-check:hover .form-check-input:checked ~ .bdo-radio-checkmark,
-.bdo-radio .form-check:hover .form-check-input:checked ~ .checkmark {
+.bdo-radio .form-check:hover .form-check-input:checked~.bdo-radio-checkmark,
+.bdo-radio .form-check:hover .form-check-input:checked~.checkmark {
   border-color: #036;
 }
 
-.bdo-radio .form-check:hover .form-check-input:checked ~ .bdo-radio-checkmark::after,
-.bdo-radio .form-check:hover .form-check-input:checked ~ .checkmark::after {
+.bdo-radio .form-check:hover .form-check-input:checked~.bdo-radio-checkmark::after,
+.bdo-radio .form-check:hover .form-check-input:checked~.checkmark::after {
   background: #036;
 }
 
@@ -1088,7 +1088,6 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
    ============================================================ */
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-summary-page) {
   background: transparent !important;
-  background-image: transparent !important;
   padding: unset;
   box-shadow: unset;
   border-radius: unset;
@@ -1441,11 +1440,12 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
   font-size: 12px;
   color: #666;
 }
+
 /* ============================================================
    FOOTER
    ============================================================ */
 
-.mcs-footer{
+.mcs-footer {
   color: #656565;
   font-family: Nunito;
   font-size: 12px;
@@ -1459,9 +1459,10 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
   height: 154px;
   align-self: center;
   margin-top: auto;
-  
+
 }
-.mcs-footer p{
+
+.mcs-footer p {
   margin: unset;
 }
 
@@ -1798,7 +1799,7 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
   padding: 1em;
   margin: 5px 8px;
   overflow: hidden;
-  
+
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-kabayan-account) .btn-primary:enabled {
@@ -1876,23 +1877,22 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-corporate-code) {
   box-shadow: unset !important;
   background-color: unset !important;
+}
 
-  @media screen and (max-width: 768px) {
-    .bdo-msgbox__actions {
+@media screen and (max-width: 768px) {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-corporate-code) .bdo-msgbox__actions {
       flex-direction: column;
       align-items: stretch;
     }
 
-    .bdo-msgbox__actions .btn {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-corporate-code) .bdo-msgbox__actions .btn {
       margin: 8px 0px !important;
     }
 
-    .btn {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-corporate-code) .btn {
       width: 100% !important;
     }
   }
-}
- 
 
 /* ============================================================
    New To Bank Page
@@ -2006,18 +2006,18 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
   margin-top: 70px;
 }
 
-.npo-form-content:has(.npo-page:not(.d-none) #bdo-ntb) .bdo-btn-container{
-display: flex;
-margin: 10px 0;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-width: 548.02px;
-height: 68.16px;
-margin-top: 70px;
-} 
+.npo-form-content:has(.npo-page:not(.d-none) #bdo-ntb) .bdo-btn-container {
+  display: flex;
+  margin: 10px 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 548.02px;
+  height: 68.16px;
+  margin-top: 70px;
+}
 
-.npo-form-content:has(.npo-page:not(.d-none) #bdo-ntb) .bdo-btn{
+.npo-form-content:has(.npo-page:not(.d-none) #bdo-ntb) .bdo-btn {
   width: 250px;
   height: 58.16px;
   font-size: 16px;
@@ -2026,8 +2026,8 @@ margin-top: 70px;
   border-radius: 8px;
   padding: 16px !important;
   margin: 5px 8px !important;
-  
-} 
+
+}
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-ntb) .bdo-btn-back {
   background-color: #FFFFFF !important;
@@ -2124,22 +2124,22 @@ margin-top: 70px;
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-event-code) {
   box-shadow: unset !important;
   background-color: unset !important;
+}
 
-  @media screen and (max-width: 768px) {
-    .bdo-msgbox__actions {
+@media screen and (max-width: 768px) {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-event-code) .bdo-msgbox__actions {
       flex-direction: column;
       align-items: stretch;
     }
 
-    .bdo-msgbox__actions .btn {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-event-code) .bdo-msgbox__actions .btn {
       margin: 8px 0px !important;
     }
 
-    .btn {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-event-code) .btn {
       width: 100% !important;
     }
   }
-}
 
 /* ============================================================
    BRANCH CODE ACCOUNT PAGE
@@ -2192,22 +2192,22 @@ margin-top: 70px;
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-branch-code) {
   box-shadow: unset !important;
   background-color: unset !important;
+}
 
-  @media screen and (max-width: 768px) {
-    .bdo-msgbox__actions {
+@media screen and (max-width: 768px) {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-branch-code) .bdo-msgbox__actions {
       flex-direction: column;
       align-items: stretch;
     }
 
-    .bdo-msgbox__actions .btn {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-branch-code) .bdo-msgbox__actions .btn {
       margin: 8px 0px !important;
     }
 
-    .btn {
+    .npo-form-content:has(.npo-page:not(.d-none) #bdo-branch-code) .btn {
       width: 100% !important;
     }
   }
-}
 
 /* ============================================================
    CONTINUE APPLICATION PAGE
@@ -2444,7 +2444,7 @@ margin-top: 70px;
 }
 
 .npo-container:has(.npo-page:not(.d-none) #bdo-customer-auth) .bdo-msgbox {
-  border-radius:8px;
+  border-radius: 8px;
   box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -2463,26 +2463,26 @@ margin-top: 70px;
 }
 
 .npo-container:has(.npo-page:not(.d-none) #bdo-customer-auth) .bdo-msgbox-actions .btn-secondary {
-  border: 2px solid#0072D8 !important;
-  background-color: #FFFFFF !important;
-  color:#0072D8 !important;
+  border: 2px solid#0072D8 ;
+  background-color: #FFFFFF ;
+  color: #0072D8 ;
   width: auto !important;
 }
 
 .npo-container:has(.npo-page:not(.d-none) #bdo-customer-auth) .bdo-msgbox-actions .btn-secondary:hover {
- color:#0072D8 !important;
- background-color: #E5FEFF !important;
+  color: #0072D8 ;
+  background-color: #E5FEFF ;
 }
 
 .npo-container:has(.npo-page:not(.d-none) #bdo-customer-auth) .bdo-msgbox-actions .btn-primary {
-  background-color:#0072D8 !important;
-  color:#FFFFFF !important;
+  background-color: #0072D8 ;
+  color: #FFFFFF ;
   width: auto !important;
 }
 
 .npo-container:has(.npo-page:not(.d-none) #bdo-customer-auth) .bdo-msgbox-actions .btn-primary:hover {
- background-color:#005097 !important;
- border-color: #1040D1;
+  background-color: #005097 ;
+  border-color: #1040D1;
 }
 
 .npo-container:has(.npo-page:not(.d-none) #bdo-customer-auth) .bdo-hyper-link {
@@ -2493,10 +2493,11 @@ margin-top: 70px;
   text-align: center;
   color: #0072D8 !important;
   cursor: pointer;
-  text-decoration: none !important;
+  border: none;
+  background: transparent;
 }
 
-.npo-container:has(.npo-page:not(.d-none) #bdo-customer-auth) .bdo-msgbox-content{   
+.npo-container:has(.npo-page:not(.d-none) #bdo-customer-auth) .bdo-msgbox-content {
   text-align: center;
 }
 
@@ -2758,18 +2759,18 @@ margin-top: 70px;
 }
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-default-reference) .confirm-card {
-    width: 100%;
-    max-width: 760px;
-    margin: 0 auto;
-    background: #fff;
-    border: 1px solid #e3e6ea;
-    border-radius: 14px;
-    padding: 45px 56px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 20px rgba(0,0,0,.08);
-    
-    }
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #e3e6ea;
+  border-radius: 14px;
+  padding: 45px 56px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .04), 0 8px 20px rgba(0, 0, 0, .08);
+
+}
 
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-default-reference) .btn-primary {
   display: inline-block;
@@ -3172,21 +3173,21 @@ margin-top: 70px;
   margin: 0;
 }
 
-.npo-form-content:has(.npo-page:not(.d-none) #bdo-kiosk-reference) .btn-primary  {
-    display: inline-block;
-    background: #0066cc;
-    border: 2px solid #0066cc;
-    color: #ffffff;
-    padding: 12px 22px;
-    border-radius: 10px;
-    font-weight: 700;
-    min-width: 220px;
-    text-decoration: none;
-    margin-top: 30px;
-    
-  }
+.npo-form-content:has(.npo-page:not(.d-none) #bdo-kiosk-reference) .btn-primary {
+  display: inline-block;
+  background: #0066cc;
+  border: 2px solid #0066cc;
+  color: #ffffff;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-weight: 700;
+  min-width: 220px;
+  text-decoration: none;
+  margin-top: 30px;
 
-  /* ============================================================
+}
+
+/* ============================================================
    REFERENCE NUMBER FOUND PAGE (#bdo-msgbox-referenceNumberFound)
    ============================================================ */
 .npo-container:has(.npo-page:not(.d-none) #bdo-referenceNumberFound-form) {
@@ -3194,284 +3195,284 @@ margin-top: 70px;
   max-width: none;
   box-shadow: unset !important;
   background: unset !important;
-  font-family: "Nunito"!important;
+  font-family: "Nunito" !important;
 }
 
-.btn-referenceNumberFound{
+.btn-referenceNumberFound {
   font-weight: bold;
-    align-items: center;
-    outline: none;
-    overflow: hidden;
-    font-weight: bold !important;
+  align-items: center;
+  outline: none;
+  overflow: hidden;
+  font-weight: bold !important;
 }
 
-.bdo-msgbox-referenceNumberFound-buttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.bdo-msgbox-referenceNumberFound-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-  .btn-primary-referenceNumberFound{
-    background-color: #0072d8 !important;
-    border-color: #2f5fef !important;
+.btn-primary-referenceNumberFound {
+  background-color: #0072d8 !important;
+  border-color: #2f5fef !important;
 }
 
-  .btn-primary-referenceNumberFound:hover{
-    color: #FFFFFF !important;
-    background: #005097 !important;
-    border-color: #1040d1 !important;
+.btn-primary-referenceNumberFound:hover {
+  color: #FFFFFF !important;
+  background: #005097 !important;
+  border-color: #1040d1 !important;
 }
 
-.bdo-msgbox-referenceNumberFound-success-icon{
-    vertical-align: middle;
-    border: 0;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-weight: 700;
-    color: #2E2E2E;
-    font-family: 'Nunito';
-    line-height: 1.1;
-    text-align: center;
-    word-break: break-word;
+.bdo-msgbox-referenceNumberFound-success-icon {
+  vertical-align: middle;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2E2E2E;
+  font-family: 'Nunito';
+  line-height: 1.1;
+  text-align: center;
+  word-break: break-word;
 }
 
-  .bdo-msgbox-referenceNumberFound{
-    box-sizing: border-box;
-    word-break: break-word;
-    min-width: 320px;
-    max-width: 580px;
-    line-height: 1.42857;
-    margin: auto;
-    gap: 16px;
-    background: #ffffff;
-    color: #2e2e2e;
-    /* Shadow-base  border box */
-    box-shadow:
-      0px 1px 2px -1px rgba(0, 0, 0, 0.1),
-      0px 1px 3px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    align-items: center;
-    text-align: center;
-    padding: 24px;
-    margin-bottom: 40px;
-    font-size: 15px !important;
-    text-size-adjust: 100% !important;
+.bdo-msgbox-referenceNumberFound {
+  box-sizing: border-box;
+  word-break: break-word;
+  min-width: 320px;
+  max-width: 580px;
+  line-height: 1.42857;
+  margin: auto;
+  gap: 16px;
+  background: #ffffff;
+  color: #2e2e2e;
+  /* Shadow-base  border box */
+  box-shadow:
+    0px 1px 2px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 40px;
+  font-size: 15px !important;
+  text-size-adjust: 100% !important;
 }
 
-.bdo-msgbox-referenceNumberFound-header{
-    text-align: center;
-    font-weight: 500;
-    line-height: 1.1;
-    margin-top: 21px;
-    margin-bottom: 10.5px;
-    font-size: 24px;
+.bdo-msgbox-referenceNumberFound-header {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+  font-size: 24px;
 
-    font-weight: bold;
-    font-size: 24px;
-    color: #232222;
-    text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #232222;
+  text-align: center;
 
 }
 
-.bdo-msgbox-referenceNumberFound-body{
-    line-height: 1.42857;
-    color: #2E2E2E;
-    font-size: 16px;
-    box-sizing: border-box;
-    word-break: break-word;
-    padding: 24px 0;
-    text-align: center;
-    margin: auto;
-    max-width: 100%;
+.bdo-msgbox-referenceNumberFound-body {
+  line-height: 1.42857;
+  color: #2E2E2E;
+  font-size: 16px;
+  box-sizing: border-box;
+  word-break: break-word;
+  padding: 24px 0;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
 }
 
-  .bdo-msgbox-referenceNumberFound-title{
-    line-height: 22px !important;
-    font-size: 20px !important;
-    font-weight: 700 !important;
-    color: #2E2E2E !important;
-    text-align: left !important;
-    border-bottom: 1px solid #CCCCCC !important;
-    padding-bottom: 16px !important;
-    max-width: 100% !important;
-    display: block !important;
+.bdo-msgbox-referenceNumberFound-title {
+  line-height: 22px !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #2E2E2E !important;
+  text-align: left !important;
+  border-bottom: 1px solid #CCCCCC !important;
+  padding-bottom: 16px !important;
+  max-width: 100% !important;
+  display: block !important;
 }
 
-  .bdo-msgbox-referenceNumberFound-paragraph{
- margin: 0 0 10.5px;
+.bdo-msgbox-referenceNumberFound-paragraph {
+  margin: 0 0 10.5px;
 }
 
-  /* ============================================================
+/* ============================================================
    CUSTOMER AUTHENTICATION PAGE MODAL CAROUSEL
    ============================================================ */
 .modal-dialog:has(#bdoModalCarousel) {
-    max-width: 954px !important; 
+  max-width: 954px !important;
 }
 
 .modal-content:has(#bdoModalCarousel) {
-    padding: 24px 24px 32px !important;
-    border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  padding: 24px 24px 32px !important;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 .modal-content:has(#bdoModalCarousel) .bdo-modal-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 600;
-    color: #2d2d2d;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #e5e5e5;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2d2d2d;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
 }
 
 .modal-content:has(#bdoModalCarousel) .bdo-modal-header .btn-close {
-    width: 8px;
-    height: 8px;
-    opacity: 0.3;
-    cursor: pointer;
+  width: 8px;
+  height: 8px;
+  opacity: 0.3;
+  cursor: pointer;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-inner {
-    min-height: 320px; 
+  min-height: 320px;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-item {
-    text-align: center;
+  text-align: center;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-item img {
-    height: 200px !important;
-    object-fit: contain;
-    margin-bottom: 3rem;
+  height: 200px !important;
+  object-fit: contain;
+  margin-bottom: 3rem;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-indicators {
-    position: absolute;
-    top: 225px;
-    left: 35%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 8px;
-    z-index: 2;
-    bottom: auto;
+  position: absolute;
+  top: 225px;
+  left: 35%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+  bottom: auto;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-indicators button {
-    width: 12px !important;
-    height: 12px !important;
-    border-radius: 50%;
-    background-color: #d9d9d9 !important;
-    border: none !important;
-    margin: 0 !important;
-    opacity: 1 !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  background-color: #d9d9d9 !important;
+  border: none !important;
+  margin: 0 !important;
+  opacity: 1 !important;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-indicators button.active {
-    background-color: #1677c5 !important;
-    outline: 2px solid #1677c5;
-    outline-offset: 2px;
+  background-color: #1677c5 !important;
+  outline: 2px solid #1677c5;
+  outline-offset: 2px;
 }
 
 .modal-content:has(#bdoModalCarousel) .bdo-step-title {
-    font-size: 24px;
-    font-weight: 700;
-    color: #2E2E2E;
-    margin-top: 1rem;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2E2E2E;
+  margin-top: 1rem;
 }
 
 .modal-content:has(#bdoModalCarousel) .bdo-step-desc {
-    font-size: 24px;
-    color: #555;
-    line-height: 1.6;
-    margin: 0 auto;
+  font-size: 24px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 auto;
 }
 
 .modal-content:has(#bdoModalCarousel) .bdo-step-desc a {
-    color: #1677c5 !important;
-    text-decoration: none;
+  color: #1677c5 !important;
+  text-decoration: none;
 }
 
 .modal-content:has(#bdoModalCarousel) .bdo-step-desc a:hover {
-    text-decoration: underline;
-    color: #135fa1 !important;
+  text-decoration: underline;
+  color: #135fa1 !important;
 }
 
-.modal-content:has(#bdoModalCarousel) .bdo-carousel-button-wrapper {    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+.modal-content:has(#bdoModalCarousel) .bdo-carousel-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.modal-content:has(#bdoModalCarousel) .bdo-carousel-control {   
-    all: unset;
-    margin-top: 24px;
-    width: 260px;
-    padding: 0;
-    height: 48px;
-    border-radius: 6px;
-    text-align: center;
-    line-height: 44px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
+.modal-content:has(#bdoModalCarousel) .bdo-carousel-control {
+  all: unset;
+  margin-top: 24px;
+  width: 260px;
+  padding: 0;
+  height: 48px;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 44px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-.modal-content:has(#bdoModalCarousel) .carousel-control-next {    
-    display: block;    
-    background-color: #0072D8 !important;    
-    color: #ffffff !important;
+.modal-content:has(#bdoModalCarousel) .carousel-control-next {
+  display: block;
+  background-color: #0072D8 !important;
+  color: #ffffff !important;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-control-next:hover,
 .modal-content:has(#bdoModalCarousel) .carousel-control-close:hover {
-    color: #FFFFFF;
-    background-color: #005097;
+  color: #FFFFFF;
+  background-color: #005097;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-control-prev {
-    border: 2px solid#0072D8;
-    background-color: #FFFFFF;
-    color:#0072D8 !important;
+  border: 2px solid#0072D8;
+  background-color: #FFFFFF;
+  color: #0072D8 !important;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-control-prev:hover {
-    color:#0072D8 !important;
-    background-color: #E5FEFF;
+  color: #0072D8 !important;
+  background-color: #E5FEFF;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-indicators:has(button:first-child.active)~.bdo-carousel-button-wrapper .carousel-control-next {
-    width: 510px;
+  width: 510px;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-indicators:has(button:first-child.active)~.bdo-carousel-button-wrapper .carousel-control-prev,
 .modal-content:has(#bdoModalCarousel) .carousel-indicators:has(button:last-child.active)~.bdo-carousel-button-wrapper .carousel-control-next,
 .modal-content:has(#bdoModalCarousel) .carousel-indicators:has(button:last-child.active)~.bdo-carousel-button-wrapper .carousel-control-prev {
-    display: none;
+  display: none;
 }
 
-.modal-content:has(#bdoModalCarousel) .bdo-carousel-button-wrapper .carousel-control-close{
-    display: none !important;
+.modal-content:has(#bdoModalCarousel) .bdo-carousel-button-wrapper .carousel-control-close {
+  display: none !important;
 }
 
 .modal-content:has(#bdoModalCarousel) .carousel-indicators:has(button:last-child.active)~.bdo-carousel-button-wrapper .carousel-control-close {
-    display: block !important;
-    all: unset;
-    margin-top: 24px;
-    width: 260px;
-    padding: 0;
-    height: 48px;
-    border-radius: 6px;
-    text-align: center;
-    line-height: 44px;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #0072D8 !important;    
-    color: #ffffff !important;    
-    cursor: pointer;
+  display: block !important;
+  all: unset;
+  margin-top: 24px;
+  width: 260px;
+  padding: 0;
+  height: 48px;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 44px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0072D8 !important;
+  color: #ffffff !important;
+  cursor: pointer;
 }
 
 /* Summary */
@@ -3648,12 +3649,12 @@ margin-top: 70px;
   bottom: 2rem;
   max-width: 880px;
 }
-.npo-form-content:has(.npo-page:not(.d-none) #bdo-summary-page) .npo-nav-bottom-row
-.npo-nav-bottom-left,
-.npo-form-content:has(.npo-page:not(.d-none) #bdo-summary-page) .npo-nav-bottom-row
-.npo-nav-bottom-right{
+
+.npo-form-content:has(.npo-page:not(.d-none) #bdo-summary-page) .npo-nav-bottom-row .npo-nav-bottom-left,
+.npo-form-content:has(.npo-page:not(.d-none) #bdo-summary-page) .npo-nav-bottom-row .npo-nav-bottom-right {
   width: 259.5px !important;
 }
+
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-summary-page) .npo-nav-bottom-row a.mt-3,
 .npo-form-content:has(.npo-page:not(.d-none) #bdo-summary-page) .npo-nav-bottom-row.mt-3 {
   margin-top: unset !important;
@@ -3671,3 +3672,224 @@ margin-top: 70px;
 @import "./kioskHeader(temp)";
 @import "./maintenance(temp)";
 @import "./forgotReference(temp)";
+
+/* ============================================================
+                        BDO LOGIN PAGE
+   ============================================================ */
+
+.npo-form-content :has(#bdo-login) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bdo-login-cont {
+  display: flex;
+  flex-direction: column;
+  width: 412px !important;
+  height: auto !important;
+  background: FFFFFF;
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.bdo-login-back-logo-cont {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+  height: 91px !important;
+}
+
+.bdo-login-back-cont .bdo-login-back {
+  font-size: 16.97px !important;
+  background: none !important;
+  border: none !important;
+  color: #004ea8 !important;
+  align-items: flex-start !important;
+  padding: 0px !important;
+}
+
+
+.bdo-login-logo-cont {
+  display: flex;
+  justify-content: center;
+}
+
+
+.bdo-login-logo {
+  width: 116px !important;
+  height: 41px !important;
+  fill: none !important;
+}
+
+.bdo-login-txt-cont {
+  margin: 0px 0px 24px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.bdo-login-txt {
+  width: 250px;
+  height: 24px;
+  text-align: center;
+  font-size: 16px;
+  color: #2E2E2E;
+}
+
+.bdo-login-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px;
+  width: 100%;
+
+}
+
+
+.bdo-login-field {
+  border: 1px solid #99c1e7 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+  width: 324px !important;
+  height: 48px !important;
+  padding: 6px 12px !important;
+}
+
+.bdo-login-btn-cont {
+  display: flex;
+  width: 386px;
+  height: auto;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.bdo-login-btn {
+  width: 324px;
+  height: 48px;
+  background: #0072d8 !important;
+  border-color: #0072d8 !important;
+  margin: 8px;
+  padding: 8px 12px;
+  color: #FFFFFF !important;
+  border-radius: 8px !important;
+}
+
+.bdo-login-field:focus {
+  border-color: #69c !important;
+  outline: 0 !important;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%) !important;
+}
+
+.bdo-login-btn:hover {
+  background-color: #1040d1 !important;
+  border-color: #1040d1 !important;
+}
+
+
+.bdo-login-nh-cont {
+  width: 368px;
+  height: 21.42px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.bdo-login-nh-cont .bdo-login-nh {
+  color: #2f5fef !important;
+  font: 15px;
+  border: none !important;
+  background: none !important;
+  padding: 0 !important;
+  text-decoration: underline !important;
+}
+
+.bdo-login-nh:hover {
+  color: #1040d1 !important;
+}
+
+.bdo-link-back::before {
+  content: " ";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #004EA8;
+  border-top: none;
+  border-right: none;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+
+ //  ------------------------LOGIN MODAL-------------------------
+    
+.modal-dialog:has(#bdo-login-modal) {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.modal-content:has(#bdo-login-modal) {
+  display: flex !important;
+  padding: 24px !important;
+  width: 644px !important;
+  height: 231px !important;
+  flex-direction: column !important;
+}
+
+
+.modal-content:has(#bdo-login-modal) .modal-header {
+  display: none !important;
+
+}
+
+.modal-content:has(#bdo-login-modal) .modal-body {
+  overflow: unset !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: unset !important;
+}
+
+#bdo-login-modal {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+.modal-content:has(#bdo-login-modal) .bdo-login-modal-header {
+  font-weight: bold !important;
+  font-size: 24px !important;
+  margin: 10.5px 0px 16px;
+}
+
+.modal-content:has(#bdo-login-modal) .bdo-login-modal-body {
+  font-size: 16px !important;
+  text-align: center !important;
+}
+
+
+.modal-content:has(#bdo-login-modal) .bdo-login-modal-btn {
+  width: 250px !important;
+  height: 57px !important;
+  margin: 5px 8px !important;
+  padding: 16px !important;
+  background-color: #2f5fef !important;
+  border-color: #2f5fef !important;
+  margin-top: 20px !important;
+  color: #FFFFFF !important;
+  border-radius: 8px !important;
+}
+
+.modal-content:has(#bdo-login-modal) .bdo-login-modal-btn:hover {
+  background-color: #005097 !important;
+  border-color: #005097 !important;
+}
